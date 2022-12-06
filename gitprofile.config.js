@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'emonarafat', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,25 +11,24 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
+    linkedin: 'yaseerarafat',
     twitter: 'arif_szn',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.github.io',
+    website: 'https://yaseerarafat.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'yaseer.arafat@gmail.com',
   },
   resume: {
-    fileUrl: 'resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'C#',
     'JavaScript',
     'React.js',
     'Node.js',
@@ -38,45 +37,25 @@ const config = {
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
+    'aspnet core',
     'CSS',
-    'Antd',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
+      company: 'Brainify Bangladesh',
       position: 'Position',
-      from: 'September 2021',
+      from: 'December 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+      companyLink: 'https://www.brainify.com.bd/',
+    }
   ],
   education: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
