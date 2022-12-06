@@ -12,8 +12,8 @@ const config = {
   },
   social: {
     linkedin: 'yaseerarafat',
-    twitter: 'arif_szn',
-    facebook: '',
+    twitter: '',
+    facebook: 'emonarafat',
     instagram: '',
     dribbble: '',
     behance: '',
