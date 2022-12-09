@@ -25,7 +25,7 @@ const config = {
     email: 'yaseer.arafat@gmail.com',
   },
   resume: {
-    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
+  fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C#',
@@ -50,6 +50,14 @@ const config = {
       companyLink: 'https://www.brainify.com.bd/',
     }
   ],
+  /* certifications: [
+    {
+      name: 'Lorem ipsum',
+      body: 'Lorem ipsum dolor sit amet',
+      year: 'March 2022',
+      link: 'https://example.com'
+    },
+  ], */
   education: [
   ],
   // Display blog posts from your medium or dev account. (Optional)
